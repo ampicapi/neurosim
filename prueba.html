@@ -1,0 +1,428 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>In Case You Missed It</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> <!-- needed for mobile devices -->
+
+	<!-- Import font -->
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+  	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300italic,400italic,500' rel='stylesheet' type='text/css'>
+
+  	<!-- Style for Bootstrap -->
+  	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+  	
+  	<!-- Custom style for the demo-->
+  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/demo.css">
+  	<link rel="stylesheet" href="css/animate.css">
+
+  	<!-- Media Boxes CSS files -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaBoxes.css">
+	
+	<style>
+
+	/* == LETS MODIFY SOME COLORS AND STYLE FOR THE DEMO == */
+
+		/* Style the search text field and the sort */
+		#search, .media-boxes-drop-down{
+  			float: right;
+  		}
+  		.media-boxes-drop-down{
+  			margin-right: 10px;
+  		}
+		
+		/* Remove the margin-bottom of the text */
+		.media-box-content .media-box-text{
+			margin-bottom: 0 !important;
+		}	
+	
+		/* Change the style of the text */
+		.media-box-text{
+			color: #777;
+			line-height: 21px;
+		}
+
+		/* Footer style */
+		.media-box-footer{
+			-webkit-box-shadow: inset 0 5px 5px -5px rgba(0,0,0,0.1);
+			   -moz-box-shadow: inset 0 5px 5px -5px rgba(0,0,0,0.1);
+			        box-shadow: inset 0 5px 5px -5px rgba(0,0,0,0.1);
+		}
+		.media-box-categories{
+			margin: 0;
+			font-size: 11px;
+		    font-style: italic;
+			color: #777;
+		}
+		.media-box-date{
+			margin-bottom: 8px;
+		}
+
+		/* Style of date */
+		.media-box-date{
+			font-size: 11px;
+		    color: #999;
+		    margin: 3px 0 0 0;
+		}
+	
+	</style>
+
+
+
+
+</head>
+<body>
+
+	<div id="brand-bar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <!-- UN global brand bar -->
+          <div class="content brandbar-header">
+            <div class="row">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="col-md-4">
+                <a class="navbar-brand" href="/en/">Welcome to the United Nations</a>
+              </div><!-- /UN global brand bar -->
+              
+            </div> <!-- /.row -->
+          </div><!-- /.container -->
+     </div><!-- /UN global brand bar and language switcher -->
+
+     <div class="title section">
+		<div class="content">
+
+			<div class="pull-left">
+				<img src="http://www.un.org/sites/www.un.org/themes/bootstrap_un/logo.png">
+			</div>
+
+
+			<div class="pull-left">
+				<h1>In Case You Missed It</h1>
+
+				<p>
+					A look back at some of the noteworthy developments of the past two weeks as covered by UN news and media outlets 
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div style="clear:both;"></div>
+
+	<div class="grid-section">
+
+		<div class="content grid-container">
+
+		<!--  ================== MEDIA BOXES ================== -->
+		
+		<div class="filters-container">
+
+			<ul class="media-boxes-filter" id="filter">
+			  <li><a class="selected" href="#" data-filter="*">All</a></li>
+			  <li><a href="#" data-filter=".Photography">News</a></li>
+			  <li><a href="#" data-filter=".Indoors">Videos</a></li>
+			  <li><a href="#" data-filter=".Nature, .Outside">Audio</a></li>
+			  <li><a href="#" data-filter=".Life">Photos</a></li>
+			</ul>
+
+		</div>		
+
+		<div id="grid">
+
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Photography Indoors">
+		            <div class="media-box-image">
+		                <div data-width="320" data-height="214" data-thumbnail="gallery/thumbnails/Asylum_Seekers.jpg"></div>
+		              
+		                
+		                <div class="thumbnail-overlay">
+	                      	<a href="http://www.un.org/apps/news/story.asp?NewsID=52525"><i class="fa fa-plus mb-open-popup"></i></a>
+		                </div>
+		            </div>
+
+		            <div class="media-box-content">
+
+		                <div class="media-box-title"><a href="http://www.un.org/apps/news/story.asp?NewsID=52525">Development Aid - UN Reacts to Proposed Cuts</a></div>
+		                <div class="media-box-date">11 Nov 2015</div>
+		                <div class="media-box-text">
+		                    “Helping people in need should not be a zero-sum game,” Secretary-General Ban Ki-moon said, warning against planned cuts in development aid in order to finance the response to the refugee crisis. 
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UN News Centre</div>
+		            </div>
+		        </div>
+
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Nature Outside">
+		            <div class="media-box-image">
+		                <div data-width="300" data-height="450" data-thumbnail="gallery/thumbnails/Emissions_Coal.jpg"></div>
+					
+						<div class="thumbnail-overlay">
+							<a href="http://www.un.org/apps/news/story.asp?NewsID=52496"><i class="fa fa-plus mb-open-popup"></i></a>
+						</div>
+		            </div>
+
+		            <div class="media-box-content">
+		                <div class="media-box-title"><a href="http://www.un.org/apps/news/story.asp?NewsID=52496">Climate Change - Greenhouse Gas Levels Reach Record High</a></div>
+		                <div class="media-box-date">9 Nov 2015 </div>
+		                <div class="media-box-text">
+		                    Greenhouse gas concentrations hit yet another record high in a continuum that is fuelling climate change and will make the planet more dangerous and inhospitable for future generations, the UN said.</a> 
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UN News Centre</div>
+		            </div>
+		        </div>
+
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Photography">
+		            <div class="media-box-image">
+		                <div data-width="240" data-height="161" data-thumbnail="gallery/thumbnails/stateless.jpg"></div>
+		                
+
+		                <div class="thumbnail-overlay">
+	                      	<a href="http://www.un.org/apps/news/story.asp?NewsID=52446#.VljJLXarRpg"><i class="fa fa-plus mb-open-popup"></i></a>
+		                </div>
+		            </div>
+
+		            <div class="media-box-content">
+		                <div class="media-box-title"><a href="http://www.un.org/apps/news/story.asp?NewsID=52446">Human Rights - Children Without a Country</a></div>
+		                <div class="media-box-date">3 Nov 2015</div>
+		                <div class="media-box-text">
+		                    Children without a country are haunted by "discrimination, frustration and despair." The UN called for urgent action to address the problem of child statelessness the world. 
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UN News Centre</div>
+		            </div>
+		        </div>
+
+		 <!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Life">
+	                <div class="media-box-quote">
+	                	<i class="quote-entry-icon fa fa-quote-left"></i>&nbsp;
+	                    UN Staff should get training to do stuff like this.
+	                    &nbsp;<i class="quote-entry-icon fa fa-quote-right"></i>
+	                    <span>Anonymous</span>
+	                </div>
+		        </div>
+
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Outside Life">
+		            <div class="media-box-image">
+		                <div data-width="320" data-height="400" data-thumbnail="gallery/thumbnails/Syrian_Refugees1.jpg"></div>
+		              
+		                
+		                <div class="thumbnail-overlay">
+	                      	<a href="http://www.unmultimedia.org/radio/english/2015/11/world-should-follow-canadian-lead-and-take-more-syrian-refugees/#.VljRCHarRpi"><i class="fa fa-plus mb-open-popup"></i></a>
+		                </div>
+		            </div>
+
+		            <div class="media-box-content">
+		                <div class="media-box-title"><a href="http://www.unmultimedia.org/radio/english/2015/11/world-should-follow-canadian-lead-and-take-more-syrian-refugees/#.VljRCHarRpi">Refugee Crisis - resettlement of Syrians Fleeing Fighting</a></div>
+		                <div class="media-box-date">10 Nov 2015</div>
+		                <div class="media-box-text">
+		                    Countries around the world should follow Canada's example and take more refugees fleeing war-torn Syria, says UN High Commissioner for Refugees, António Guterres. 
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UN Radio</div>
+		            </div>
+		        </div>
+
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Indoors">
+		            <div class="media-box-image">
+		                <div data-width="320" data-height="214" data-thumbnail="gallery/thumbnails/Air-travel.jpg"></div>
+		                
+		                <div class="thumbnail-overlay">
+	                      	<a href="http://www.un.org/apps/news/story.asp?NewsID=52524"><i class="fa fa-plus mb-open-popup"></i></a>
+		                </div>
+		            </div>
+
+		            <div class="media-box-content">
+		                <div class="media-box-title"><a href="http://www.un.org/apps/news/story.asp?NewsID=52524">Civil Aviation - Making Air Travel Safer</a></div>
+		                <div class="media-box-date">11 Nov 2015</div>
+		                <div class="media-box-text">
+		                    A landmark agreement on a radio spectrum for tracking global air traffic is designed to prevent a repeat of the “tragic loss” of Malaysian Airlines Flight MH370 in March 2014. 
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UN News Centre</div>
+		            </div>
+		        </div>
+
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Photography Outside">
+		            <div class="media-box-image">
+		                <div data-width="320" data-height="180" data-thumbnail="gallery/thumbnails/UN-Art.jpg"></div>
+		               
+		                
+		                <div class="thumbnail-overlay">
+	                      	<a href="https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/a18f988cbfe43b833e72563500e671d1/chagall-window/index.html"><i class="fa fa-plus mb-open-popup"></i></a>
+		                </div>
+		            </div>
+
+		            <div class="media-box-content">
+		                <div class="media-box-title"><a href="https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/a18f988cbfe43b833e72563500e671d1/chagall-window/index.html">UN Art & Gifts Series - Chagall Window</a></div>
+		                <div class="media-box-text">
+		                	Celebrating peace through light and colour -- Check out Marc Chagall's masterpiece at the United Nations. 
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UN News Centre</div>
+		            </div>
+		        </div>
+		 
+		<!-- -------------------------- BOX MARKUP -------------------------- -->            
+		        <div class="media-box Photography Life">
+		            <div class="media-box-image">
+		                <div data-width="320" data-height="213" data-thumbnail="gallery/thumbnails/UNMEER_SL.jpg"></div>
+		                
+		                
+		                <div class="thumbnail-overlay">
+	                      	<a href="http://www.un.org/apps/news/story.asp?NewsID=52487#.VljRi3arRpg"><i class="fa fa-plus mb-open-popup"></i></a>
+		                </div>
+		            </div>
+
+		            <div class="media-box-content">
+		                <div class="media-box-title"><a href="http://www.un.org/apps/news/story.asp?NewsID=52487#.VljRi3arRpg">Health - Sierra Leone Ebola-Free</a></div>
+		                <div class="media-box-date">7 Nov 2015</div>
+		                <div class="media-box-text">
+		                    The World Health Organization (WHO) declared that Ebola virus transmission had stopped in Sierra Leone. 
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UN News Centre</div>
+		            </div>
+		        </div>
+		      
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+		        <div class="media-box Outside Nature">
+		            <div class="media-box-image">
+		                <div data-width="240" data-height="161" data-thumbnail="gallery/thumbnails/video.jpg"></div>
+		               
+		                <div class="thumbnail-overlay">
+	                      	<a href="http://www.unmultimedia.org/tv/unia/detail/4589478801001.html"><i class="fa fa-plus mb-open-popup"></i></a>
+		                </div>
+		            </div>
+
+		            <div class="media-box-content">
+		                <div class="media-box-title"><a href="http://www.unmultimedia.org/tv/unia/detail/4589478801001.html">Human Security - Egypt After the Arab Spring</a></div>
+		                <div class="media-box-date">3 Nov 2015</div>
+		                <div class="media-box-text">
+		                    A UN Trust Fund is helping local leaders raise the self-sufficiency and business potential of rural communities in Egypt.
+		                </div>
+		            </div>
+
+		            <div class="media-box-footer">
+		            	<div class="media-box-categories"><span>Source:</span> UNTV: UN in Action</div>
+		            </div>
+		        </div>
+		
+
+			  
+		</div> <!-- #container -->
+
+		<!--  ================== END MEDIA BOXES ================== -->
+
+		</div>
+
+	</div>
+
+	<div class="section hero">
+
+		<div class="content">
+
+			<h2>For the latest</h2>
+
+			<ul>
+
+				<li><a href="http://www.un.org/news">UN News Centre</a></li>
+				<li><a href="http://www.unmultimedia/Radio">UN Radio</a></li>
+				<li><a href="http://www.webtv.un.org">UN Webcast</a></li>
+				<li><a href="http://www.unmultimedia.org/photo/">UN Photo</a></li>
+				<li><a href="http://www.unmultimedia.org/tv">UN TV </a></li>
+				<li><a href="http://www.un.org/press/en">UN Meetings coverage</a></li>
+
+			</ul>
+
+		</div>
+	</div>
+	
+
+
+	<footer class="footer container">
+    	<hr>
+      <div class="row list-inline">
+        <div class="col-md-12">
+          <div class="pull-left flip footer-brand">
+            <a href="index.html" title="Home"><span class="site-name">United Nations</span></a>
+          </div>
+            <div class="pull-right flip"> 
+              <section class="region region-footer-5">
+               <div id="block-menu-menu-footer-links" class="block block-menu">
+                  <ul class="menu nav">
+                    <li class="first leaf"><a href="//www.un.org/en/contactus/">Contact</a></li>
+                    <li class="leaf"><a href="//www.un.org/en/aboutun/copyright/">Copyright </a></li>
+                    <li class="leaf"><a href="//www.un.org/en/aboutun/fraudalert/">Fraud Alert</a></li>
+                    <li class="leaf"><a href="//www.un.org/en/aboutun/privacy/">Privacy Notice</a></li>
+                    <li class="leaf"><a href="//www.un.org/en/siteindex/">Site Index</a></li>
+                    <li class="last leaf"><a href="//www.un.org/en/aboutun/terms/">Terms of Use</a></li>
+                  </ul> 
+                </div> 
+              </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+	<!-- jQuery 1.8+ -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Media Boxes JS files -->
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.imagesLoaded.min.js"></script>
+	<script src="js/jquery.transit.min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/modernizr.custom.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.mediaBoxes.js"></script>
+
+	<script>
+
+	    $('#grid').mediaBoxes({
+	    	filterContainer: '#filter',
+	    	search: '#search',
+	    	sortContainer: '#sort',
+	    	columns: 4,
+	    	boxesToLoadStart: 7,
+	    	boxesToLoad: 6,
+	    	horizontalSpaceBetweenBoxes: 20,
+        	verticalSpaceBetweenBoxes: 20,
+        	getSortData: {
+	          title: '.media-box-title',
+	          categories: '.media-box-categories'
+	        },
+	    }); 
+
+	</script>
+
+
+	<!-- Bootstrap JS file -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/demo.js"></script>
+
+</body>
+</html>
